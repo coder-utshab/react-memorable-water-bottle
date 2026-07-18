@@ -1,0 +1,21 @@
+How to run this project in Chrome
+================================
+
+1. Open Terminal in the project folder:
+   - Open VS Code in this project folder
+   - Go to Terminal > New Terminal
+
+2. Install dependencies:
+   npm install
+
+3. Start the development server:
+   npm run dev
+
+4. Open the app in Chrome:
+   http://localhost:5173/
+
+If the port does not open, check the terminal output for the correct local URL.
+
+Note:
+- This project uses Vite + React.
+- The app will run locally in your browser.
