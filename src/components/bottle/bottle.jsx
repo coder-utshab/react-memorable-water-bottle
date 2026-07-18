@@ -1,14 +1,4 @@
-
-// const Bottle = ({bottle}) => {
-//     console.log(bottle)
-//     return (
-//         <div>
-//             <h3>Bottle</h3>
-//         </div>
-//     );
-// };
-
-// export default Bottle;
+import './bottle.css';
 
 
 const Bottle = ({ bottle }) => {
@@ -17,9 +7,10 @@ const Bottle = ({ bottle }) => {
     console.log(bottle)
 
     return (
-        <div>
+        <div className="bottle">
             <h3>Bottle {name}</h3>
             <img src={img} alt=""/>
+            <p>Price: ${price}</p>
         </div>
     );
 };
