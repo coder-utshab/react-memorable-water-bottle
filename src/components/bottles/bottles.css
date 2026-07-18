@@ -1,5 +1,15 @@
-.bottles-container{
+/* .bottles-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+} */
+
+
+
+.bottles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
 }
+

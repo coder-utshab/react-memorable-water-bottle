@@ -1,4 +1,4 @@
-.bottle{
+/* .bottle{
     border: 2px solid seagreen;
     padding: 10px;
     border-radius:15px;
@@ -6,4 +6,20 @@
 
 .bottle img{
     width: 200px;x
+} */
+
+
+
+
+.bottle {
+  border: 2px solid tomato;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.bottle img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
 }
